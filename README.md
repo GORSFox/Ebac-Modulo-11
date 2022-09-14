@@ -31,8 +31,8 @@ Como um tempo de execução JavaScript assíncrono orientado a eventos, o Node.j
 **Lembrete =>Cada aplicação roda em uma porta diferente
 
 # Microserviços
-- Diferente dos sistemas monolíticos
-- CRUD [Create, Read, Update Delete] - rotina básica de banco de dados.
+- Diferente dos sistemas monolíticos--
+- CRUD [Create, Read, Update, Delete] - rotina básica de banco de dados.
 
 
 

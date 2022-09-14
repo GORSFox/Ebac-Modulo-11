@@ -4,7 +4,9 @@
   "description": "projeto para gerenciamento de contatos",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack serve --open --mode development"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,9 @@
     "save-dev": "^0.0.1-security",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack-dev-server": "^4.11.0"
   }
 }
