@@ -34,6 +34,20 @@ Como um tempo de execução JavaScript assíncrono orientado a eventos, o Node.j
 - Diferente dos sistemas monolíticos--
 - CRUD [Create, Read, Update, Delete] - rotina básica de banco de dados.
 
+## API Rest(ful)
+- Application Programming Interface(API)
+- Representational State Transfer (Rest)
+- Métodos HTTP CRUD
+- POST: criar dados no servidor
+- GET: leitura de dados no host
+- DELETE: excluir as informações
+- PUT: atualizações de registros
+- Múltiplos clientes a partir de um único backend
+
+### Express
+- Framework web
+- Faz o backend a partir do node
+
 
 
 
