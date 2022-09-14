@@ -20,6 +20,24 @@ Como um tempo de execução JavaScript assíncrono orientado a eventos, o Node.j
 
 - Para iniciar o npm : npm init
 
+## Arquitetura Serverless (otimizar recursos)
+- AWS, Azure, Google Cloud - Computação nas nuvens - Cloud Computing
+- Foco nas funções
+- SaaS - Software as a Service
+- FaaS - Functions as a Service
+- IaaS - Infraestructure as a Service
+- Possibilita que a aplicação seja escalada de acordo com a quantidade de uso.
+
+**Lembrete =>Cada aplicação roda em uma porta diferente
+
+# Microserviços
+- Diferente dos sistemas monolíticos
+- CRUD [Create, Read, Update Delete] - rotina básica de banco de dados.
+
+
+
+
+
 
 
 
