@@ -1,11 +1,18 @@
 const express = require('express')
+const cors = require('cors')
+const bodyParser = require('body-parser')
 const server = express()
 
 server.listen(3001)
+server.use(cors())
+server.use((bodyParser.urlencoded({extended: true})))
 
-server.use(express.json())
+
 const contacts = [
-    { "name": "Glaucia"}
+    { "name": "Glaucia"},
+    { "name": "Renato"},
+    { "name": "Gabriela"},
+    { "name": "Renatinho"}
 ]
 
 server.get('/', () => {
